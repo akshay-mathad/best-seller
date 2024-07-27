@@ -28,7 +28,7 @@ import { data } from '../src/data';
 
           <book id="book">
             <rank id="rank" className="book">#{rank}</rank><br></br>
-            <img src={image} id="image" className="book"></img><br></br>
+            <img src={image} alt="" id="image" className="book"></img><br></br>
 
             <bookTitle id="bookTitle" className="book">{bookTitle}</bookTitle><br></br>
             {/* <h2>{title}</h2> */}
